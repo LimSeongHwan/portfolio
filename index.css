@@ -1,0 +1,62 @@
+  .container {
+    padding: 50px;
+    max-width: 70%;
+  }
+
+  .navbar {
+    margin-bottom: 70px;
+  }
+
+  .nav-item {
+    font-size: 20px;
+  }
+
+  .text-start {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .row {
+    margin-bottom: 70px;
+  }
+
+  .contact {
+    margin-left: 100px;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .contactme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .infobox {
+    height: 200px;
+  }
+
+  span {
+    margin-left: 30px;
+  }
+
+  a {
+    color: black;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .sm-icon-height {
+    height: 400px;
+  }
+
+  .time-line{
+    height: 1000px;
+  }
