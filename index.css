@@ -91,7 +91,7 @@
   }
 
   .img-wrapper > .carousel-item img:hover {
-    transform:scale(1.5);
+    transform:scale(1.3);
   }
 
   .project-img img {
@@ -103,7 +103,7 @@
 
   .project-row {
     display: flex;
-    height: 600px;
+    height: 650px;
   }
 
   .project-info-row {
@@ -114,4 +114,8 @@
   .project-info-row > .contactme {
     align-items: flex-end;
     padding-right: 20px;
+  }
+
+  .mb-50 {
+    margin-bottom: 50px;
   }
