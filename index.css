@@ -46,6 +46,9 @@
   }
 
   .infobox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     height: 200px;
   }
 
@@ -92,7 +95,7 @@
   }
 
   .img-wrapper img:hover {
-    transform:scale(3);
+    transform:scale(2.5);
   }
 
   .carousel-item img {
