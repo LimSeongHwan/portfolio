@@ -8,13 +8,21 @@
   }
 
   .nav-item {
-    font-size: 20px;
+    font-size: 1.5vw;
   }
 
   .text-start {
-    font-size: 30px;
+    font-size: 1.568vw;
     margin-top: 30px;
     margin-bottom: 50px;
+  }
+
+  .text-center {
+    font-size: 1.2vw;
+  }
+
+  .text-end {
+    font-size: 1.568vw;
   }
 
   .row {
@@ -34,6 +42,7 @@
     justify-content: center;
     align-items: center;
     margin: 10px;
+    font-size: 1vw;
   }
 
   .infobox {
@@ -87,7 +96,7 @@
   }
 
   .carousel-item img {
-    height: 450px;
+    height: 70vh;
   }
 
   .img-wrapper > .carousel-item img:hover {
@@ -96,8 +105,8 @@
 
   .project-img img {
     border: 1px solid black;
-    width: 70%;
-    height: 40%;
+    width: 20vw;
+    height: 28vh;
     margin-bottom: 30px;
   }
 
@@ -118,4 +127,27 @@
 
   .mb-50 {
     margin-bottom: 100px;
+  }
+
+  h1 {
+    font-size: 2.5vw;
+  }
+
+  span {
+    font-size: 1.8vw;
+  }
+
+  img {
+    width: 10vw;
+    height: 27vh;
+  }
+
+  h5, p {
+    font-size: 1.2vw;
+  }
+
+  @media(max-width:770px){
+    .project-row{
+      height: 200px;
+    }
   }
